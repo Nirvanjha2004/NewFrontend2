@@ -9,11 +9,18 @@
     "paths": {
       "@/*": ["./src/*"]
     },
+    "strict": false,
+    "noEmit": true,
+    "checkJs": false,
     "noImplicitAny": false,
     "noUnusedParameters": false,
     "skipLibCheck": true,
     "allowJs": true,
     "noUnusedLocals": false,
     "strictNullChecks": false
-  }
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+  ]
 }
